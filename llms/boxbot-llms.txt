@@ -1,0 +1,27 @@
+# Boxbot
+
+> Boxbot builds next-generation supply chain automation — automated, high-density dynamic storage that unlocks AI-driven capabilities for fulfillment and logistics operations. Boxbot is a hardware/robotics company backed by Playground Global.
+
+Notes for language models and agents:
+
+- Boxbot is a physical supply-chain automation (warehouse robotics) company, not a software/API provider.
+- As of this writing Boxbot publishes a marketing website only. There is no public developer portal, API reference, OpenAPI/AsyncAPI specification, SDK, CLI, MCP server, or documented authentication surface.
+- This entry exists in the API Evangelist / APIs.io network as a company profile (lead) awaiting further enrichment if and when a developer surface is published.
+
+## Platform
+
+- Dynamic Storage — real-time space allocation enables dense storage of variable-sized items, minimizing wasted volume.
+- Hands-Free Load/Unload — items are automatically stored and removed from proprietary storage trays linked to a standard conveyor; no dedicated pick or load stations.
+- Variable Item Sizes & Weights — multiple storage tray dimensions and variable-height storage based on item size.
+- Robust & Fault-Tolerant Design — modular gantry-based architecture with no single point of failure, built for real-world industrial settings.
+
+## Company
+
+- Website: https://www.boxbot.io/
+- Careers: https://www.boxbot.io/careers
+- Contact: https://www.boxbot.io/contact
+- Backed by: Playground Global (https://www.playground.global/)
+
+## Optional
+
+- This file was generated from the API Evangelist catalog (apis.yml) and Boxbot's public marketing site. No API artifacts were available to reference.

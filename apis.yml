@@ -1,8 +1,25 @@
 aid: boxbot
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boxbot.png
 name: Boxbot
-description: 'Boxbot is a company surfaced as a portfolio company of playground-global and added to the
-  API Evangelist network as a stub for enrichment. Sector: automation. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Boxbot builds next-generation supply chain automation, making logistics operations more
+  productive, intelligent, and resilient through automated, high-density dynamic storage that unlocks
+  new AI-driven capabilities. Its platform is designed for mission-control fulfillment facilities:
+  real-time space allocation packs variable-sized items densely, hands-free load/unload moves items
+  onto and off proprietary storage trays linked to standard conveyors with no pick or load stations,
+  and a modular, gantry-based architecture delivers a robust, fault-tolerant design with no single
+  point of failure. Boxbot is a hardware/robotics company backed by Playground Global; it publishes a
+  marketing presence but no public developer API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/boxbot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Automation
+- Supply Chain
+- Robotics
+- Warehouse Automation
+- Logistics
+- Artificial Intelligence
+- Fulfillment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/boxbot-domain-security.yml
+- type: LLMsTxt
+  url: llms/boxbot-llms.txt
 - type: Website
   url: https://www.boxbot.io/
+- type: Careers
+  url: https://www.boxbot.io/careers
+- type: Support
+  url: https://www.boxbot.io/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
